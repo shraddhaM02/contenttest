@@ -1,0 +1,20 @@
+{
+  "folderId": "hYevHaeFVVAsNdWhoXDSv",
+  "folderName": "contentTest",
+  "subFolders": [],
+  "testCases": [
+    {
+      "testCaseId": "rXmABlPxobxCUAioCtfWo",
+      "testCaseName": "New Workflow_V1",
+      "testCaseMode": "HTTP",
+      "testCaseMethod": "GET",
+      "environment": "Development",
+      "appId": "hYevHaeFVVAsNdWhoXDSv",
+      "workflowId": "KqOXrHGIiTwPDcHzNsGZi",
+      "version": 1,
+      "secure": false,
+      "content": "{\"testType\":\"HTTP\",\"customTestCase\":false,\"httpConfig\":{\"queryApi\":{\"url\":\"https://apim-eus-ivoyant-global-dev-nprd.azure-api.net/ivoyant/del_ws/contentTest/id\",\"method\":\"GET\",\"headers\":[{\"key\":\"X-tracing-token\",\"value\":\"MmIyZjVhY2ItYmM0Zi00ODYyLWFiMTAtYmJkODJlNDI4YTA0OjFjMGFhZjBlLTA3NDYtNDFiNi05NzgyLTcxNjczYWU2ZGEwNToxNzY4NTUzNTQ2OTkx.5F6AKvc6Qo-bM2EaQLTXU8_PY-iR6ouv7X5w46RApqo\"},{\"key\":\"Content-type\",\"value\":\"application/json\"},{\"key\":\"Ocp-Apim-Subscription-Key\",\"value\":\"d48ca9b1d7994652a9aa46acaa7d9fa3\"}],\"auth\":{\"type\":\"NO_AUTH\"},\"params\":[],\"pathVariables\":[],\"body\":{\"type\":\"raw\",\"data\":{}}},\"responseApi\":{\"status\":200,\"data\":{}}}}",
+      "examples": []
+    }
+  ]
+}
