@@ -4,10 +4,29 @@
   "workflowName": "New Workflow",
   "itemType": "workflow",
   "appId": "hYevHaeFVVAsNdWhoXDSv",
-  "folderId": "cCEmtiHSzCbkZkYMwZniy",
+  "folderId": "JgRzUKLcIkcnoBeUAlRnu",
   "type": "ORCHESTRATION",
   "version": "0.0.1",
   "steps": [
+    {
+      "id": "gvkEgwzjLDwoDjZxiNOVW",
+      "stepName": "Add an activity",
+      "stepType": "TEMP",
+      "icon": "",
+      "indicator": "",
+      "description": "",
+      "deletable": true,
+      "config": {
+        "activityType": "TEMP",
+        "activityName": "AddActivity",
+        "activityGroup": "Common",
+        "name": "Add an activity",
+        "config.name": "Add an activity",
+        "sourceSchemas": [
+          "hwPBYnzGaIdTtrIuWQkiY"
+        ]
+      }
+    },
     {
       "id": "hwPBYnzGaIdTtrIuWQkiY",
       "stepName": "RESTService",
@@ -54,6 +73,7 @@
         "activityGroup": "Common",
         "name": "End",
         "sourceSchemas": [
+          "gvkEgwzjLDwoDjZxiNOVW",
           "hwPBYnzGaIdTtrIuWQkiY"
         ]
       }
@@ -61,11 +81,25 @@
   ],
   "transitions": [
     {
-      "id": "initialEdge",
+      "id": "GiHYpBWeikGqzWOWvmioX",
       "from": "hwPBYnzGaIdTtrIuWQkiY",
-      "to": "zDSZcChzDUeyNlRVKtAfq",
+      "to": "gvkEgwzjLDwoDjZxiNOVW",
       "handleMap": {
         "source": "hwPBYnzGaIdTtrIuWQkiY_1",
+        "target": "gvkEgwzjLDwoDjZxiNOVW_1"
+      },
+      "name": "",
+      "description": "",
+      "type": "DEFAULT",
+      "lineType": "step",
+      "lineColor": "#8c8c8c"
+    },
+    {
+      "id": "lIjIZCiEVFvlkingqMNkS",
+      "from": "gvkEgwzjLDwoDjZxiNOVW",
+      "to": "zDSZcChzDUeyNlRVKtAfq",
+      "handleMap": {
+        "source": "gvkEgwzjLDwoDjZxiNOVW_2",
         "target": "zDSZcChzDUeyNlRVKtAfq_1"
       },
       "name": "",
@@ -100,6 +134,24 @@
         }
       ],
       "sourcePosition": null,
+      "targetPosition": "left"
+    },
+    "gvkEgwzjLDwoDjZxiNOVW": {
+      "x": 240,
+      "y": 48,
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "gvkEgwzjLDwoDjZxiNOVW_1"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "gvkEgwzjLDwoDjZxiNOVW_2"
+        }
+      ],
+      "sourcePosition": "right",
       "targetPosition": "left"
     }
   },
