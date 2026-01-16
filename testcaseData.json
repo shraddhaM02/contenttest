@@ -1,6 +1,6 @@
 {
-  "folderId": "hYevHaeFVVAsNdWhoXDSv",
-  "folderName": "contentTest",
+  "folderId": "xsIaggQsZHDLpwNhzWQNx",
+  "folderName": "cloneIssue",
   "subFolders": [],
   "testCases": [
     {
@@ -9,7 +9,7 @@
       "testCaseMode": "HTTP",
       "testCaseMethod": "GET",
       "environment": "Development",
-      "appId": "hYevHaeFVVAsNdWhoXDSv",
+      "appId": "xsIaggQsZHDLpwNhzWQNx",
       "workflowId": "KqOXrHGIiTwPDcHzNsGZi",
       "version": 1,
       "secure": false,
